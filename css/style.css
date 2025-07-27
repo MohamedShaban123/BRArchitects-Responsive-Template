@@ -1,0 +1,381 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+/*Start Header Section*/
+
+ .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: white; /* or any bg */
+    box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    position: fixed;
+}
+
+
+ .header  .logo{
+  letter-spacing: 5px;
+}
+
+ .header .logo a span{
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 5px;
+
+}
+
+.header a{
+    color: black;
+}
+
+ .header .logo a{
+    padding: 10px;
+    font-size: 20px;
+}
+
+ .header .nav-links{
+    padding: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+    letter-spacing: 5px;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+
+.header  a:hover{
+   
+   background-color: #CCCCCC;
+}
+
+
+ .header  a{
+    text-decoration: none;
+    padding: 8px 16px;
+    
+}
+
+
+
+/*End Header Section*/
+
+
+
+/*Start First Page Section */
+ .container .BR-Architects{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../images/architect.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+  .container .BR-Architects .text{
+   color: white;
+ }
+
+ .container .BR-Architects .text span{
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 5px;
+    background-color:#393A3C;
+    padding: 10px;
+
+    
+ }
+
+ .container .BR-Architects .text p{
+    font-size: 30px;
+    letter-spacing: 5px;
+ }
+/*End First Page Section */
+
+
+
+
+
+
+/*Start projects Page Section */
+.container .projects h3{
+  color: #000;
+  padding: 16px 0px;
+  margin: 10px 0 ;
+  text-transform: capitalize;
+  background-color: white; /* or any bg */
+  box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.3);
+}
+
+.container .projects .projects-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container .projects .projects-cards .card{
+    background-image: url(../images/p5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 290px;
+    height: 200px;
+   margin-bottom: 20px;
+}
+
+/*End projects Page Section */
+
+
+
+
+
+
+/*Start About Page Section */
+
+.container .about .about-header{
+ color: #000;
+  padding: 16px 0px;
+  margin: 10px 0 ;
+  text-transform: capitalize;
+  background-color: white; /* or any bg */
+  box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.3);
+}
+
+.container .about .about-text   {
+    margin: 15px 0;
+    padding: 16px 0px;
+}
+
+
+.container .about .about-cards .card
+{
+    width: 290px;
+    height: 630px;
+}
+
+.container .about .about-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.container .about .about-cards .card .img-card {
+    width: 100%;
+    height: 400px;
+}
+.container .about .about-cards .card .header-card{
+   font-weight: 400; 
+   margin: 10px 0px;
+}
+
+.container .about .about-cards .card .title-card{
+    color: #666666;
+    margin: 15px 0px;
+}
+.container .about .about-cards .card .content-card{
+    margin: 15px 0px;
+}
+.container .about .about-cards .card .bottom-card{
+    padding: 8px 16px;
+    width: 100%;
+    border: none;
+    text-transform: capitalize;
+}
+/*End About Page Section */
+
+
+/*Start Contact Page Section */
+
+.container .contact .contact-header{
+ color: #000;
+  padding: 16px 0px;
+  margin-top: 70px 0 ;
+  margin-bottom: 10px;
+
+  text-transform: capitalize;
+  background-color: white; /* or any bg */
+  box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.3);
+}
+
+.container .contact p{
+    margin-bottom: 15px;
+}
+
+.container .contact .contact-form{
+    width: 100%;
+    height: auto;
+    margin-top: 100px 0px;
+}
+.container .contact .contact-form input{
+    display: block;
+    padding: 8px 16px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+
+}
+.container .contact .contact-form button{
+    background-color: black;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin: 30px 0px;
+}
+/*End Contact Page Section */
+
+
+
+/*Start Image  Page Section */
+.container .img-street img{
+     width: 100%;
+     height: 100vh;
+     display: block;
+}
+/*End Image Page Section */
+
+
+
+
+
+/*Start footer  Page Section */
+
+ footer{
+    margin-top: 10px;
+    padding: 16px 0px;
+    background-color: black;
+    text-align: center;
+ }
+
+ footer p{
+   color: white;
+   margin: 15px 0;
+   font-size: 20px;
+ }
+
+ footer p span{
+    text-decoration: underline;
+    color: white;
+ }
+/*End footer Page Section */
+
+
+
+
+
+
+
+
+
+/* Small screens (phones) */
+@media (min-width: 320px) and (max-width: 599px) {
+
+
+        .header{
+        flex-direction: column;
+        }
+
+        .header .nav-links{
+            width: 100%;
+            flex-direction: row;
+        }
+
+        .header .nav-links a{
+            font-size: 55%;
+        }
+
+
+
+        .container .BR-Architects .text p{
+            font-size: 15px;
+        }
+        .container .BR-Architects .text p span{
+            font-size: 20px;
+        }
+
+
+
+        .container .projects .projects-cards{
+       flex-direction: column;
+       }
+
+     .container .about .about-cards{
+        flex-direction: column;
+
+    }
+
+
+
+}
+
+/* Medium screens (tablets) */
+@media (min-width: 600px) and (max-width: 1020px) {
+
+
+      .header{
+        flex-direction: column;
+        }
+
+        .header .nav-links{
+            width: 100%;
+            flex-direction: row;
+        }
+
+        .container .projects .projects-cards .card{
+       width: 30%;
+    }
+    .container .about .about-cards .card
+    {
+        width: 30%;
+    }
+}
+
+/* Large screens (laptops/desktops) */
+@media (min-width: 1020px) and (max-width: 1440px) {
+
+        .header .nav-links{
+            width: 50%;
+           
+        }
+
+        .container .projects .projects-cards .card{
+       width: 30%;
+    }
+    .container .about .about-cards .card
+    {
+        width: 30%;
+    }
+
+
+}
+
